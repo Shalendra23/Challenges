@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous'); /* importing of the google font */
+
+h1{
+    font-family: 'Righteous', cursive;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+section{
+  float: left;
+  width: 50%;
+}
+
+figcaption{
+  text-align: center;
+}
+
+p{
+  clear: both;
+}
+
+aside{
+ width: 50%;
+}
+
+body{
+  background-image: radial-gradient(white, grey);
+  background-image: url("images/whitewoodlightnoline.jpg");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: 100%;
+}
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 450px; 
+    height: 450px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+article .ingredients{
+  float: left;
+}
+
+img {
+    border-radius: 8px;
+    width: 450px;
+    height: 450px;
+  }
+
+  em { 
+    font-style: italic;
+  }
+
+table{
+    width: 45%;
+    text-align: center;
+}
+
+tr, td {
+    height: 20px;
+  }
+
+tr:hover {
+  background-color: grey;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+ /* tr:nth-child(odd) {
+      background-color: #e6e5ea;
+    } */
+
+.social{
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{ 
+  list-style-type:none;
+}
+
+.square{
+  list-style-type:square;
+}
+
+ol{
+  list-style-type: upper-roman;
+  }
+
+  #nutriTable{
+    float: right;
+  }
+ 

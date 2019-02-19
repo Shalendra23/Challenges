@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Butter Chicken</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  </head>
+  <body>
+    <section>
+      <figure>
+          <div id="slideshow">
+            <img src="images/main image.jpg" alt="Final butter chicken dish">
+          </div>
+<!--          <div>
+            <img src="images/bc2.jpg" alt="Final butter chicken dish">
+          </div>
+          <div>
+            <img src="images/bc3.jpg" alt="Final butter chicken dish">
+          </div> -->
+      </figure>
+      <figcaption><em>Butter Chicken</em></figcaption>    
+    </section>
+      <header>
+          <h1>Amazing Butter Chicken</h1>
+        </header>
+      <section>
+      <p>Most Mughlai and Punjabi restaurants will serve you a plate of this goodness as do dhabas and street vendors. I could devour into an entire dish all by myself. Soft roomali rotis, naan or flaky parathas scooping up the thick spiced gravy of butter chicken along with succulent morsels of tandoori chicken with charred edges brings sheer delight with every mouthful. The heat/ spice of the dish combines with the rich gravy and slight sweetness that make it very hard to resist. </p>
+      <p>  With most dishes that have fond memories it’s the taste that lingers on even years later. Cooking Butter Chicken at home has always for me been about getting the flavours just right and like I knew they should taste. This recipe is one that I can say is an absolute hit every single time with family and friends. There’s no calorie counting here I can tell you that now! There’s a copious quantity of butter (after all it is butter chicken!), cream and honey. But I assure you it’s worth every spoonful.</p>     
+    </section>
+<section>
+
+    <aside>
+        <h2>Nutrition Per Serving</h2>
+                  <table id="nutriTable">
+                        <tr>
+                            <th>Calories</th>
+                            <th>Fat</th> 
+                            <th>Saturates</th>
+                            <th>Protein</th>
+                            <th>Carbs</th> 
+                            <th>Sugars</th> 
+                            <th>Salts</th>
+                            <th>Fibre</th>
+                        </tr>
+                        <tr>
+                            <td>275</td>
+                            <td>13.8g</td> 
+                            <td>6g</td>
+                            <td>31.9g</td>
+                            <td>6.1g</td> 
+                            <td>4.6g</td>
+                            <td>1.2g</td>
+                            <td>0.1g</td> 
+                        </tr>
+                        <tr>
+                            <td>14%</td>
+                            <td>20%</td> 
+                            <td>30%</td>
+                            <td>64%</td>
+                            <td>2%</td> 
+                            <td>5%</td>
+                            <td>20%</td>
+                            <td>-</td> 
+                              </tr>
+                      </table>
+      
+        </aside>
+
+  <article>
+      <h2>Directions</h2>
+<ol>
+     <li>Once the chicken is cooked set aside and proceed to make the <em> makhani sauce below </em></li>
+     <li>Heat a heavy bottom sauce pan and add the <strong> butter</strong>. Add <strong>green cardamom, cinnamon stick and cloves</strong>. Fry for 20 seconds, add the <strong> onions</strong> and sauté for 5-7 mins on medium heat until they take on a light brown colour.</li>
+     <li>Add the <strong>grated ginger</strong> and slit <strong>green chillies</strong>. Fry for a further minute and add the <strong>chilli powder, garam masala powder</strong> along with the <strong>tomato puree</strong>. Stir well and cook for a couple of minutes. Now gradually add the <strong>double cream</strong> stirring continuously to mix all the spices with the cream. Simmer and cook for 2-3 minutes.</li>
+     <li>At this stage add a <strong>splash of water</strong> if the curry is too thick. Stir in the <strong>honey</strong> and the <strong>fenugreek powder</strong>. <em>Season to taste</em>. Now add the <strong>cooked chicken pieces</strong> and simmer the curry on a low heat for 8-10 minutes. Garnish with <strong>coriander</strong> and serve with <strong>roti or paratha</strong>.</li>
+</ol>
+
+  </article>
+
+<article>
+  <div class="ingredients">       
+  <h2>Ingredients</h2>
+      <em>(Serves 4)</em>
+
+      <ul>
+              <li>1 ½ tbsp unsalted butter </li>
+              <li>5 green cardamom pods lightly crushed </li>
+              <li>1” cinnamon stick </li>
+              <li>4 clove</li>
+              <li>1 small onion finely chopped </li>
+              <li>1 heaped tbsp grated ginger </li>
+              <li>2 green chillies slit lengthwise </li>
+              <li>1 tsp kashmiri chilli powder (or mild paprika) </li>
+              <li>½ tsp garam masala powder </li>
+              <li>3 tbsp tomato puree </li>
+              <li>150mls double cream </li>
+              <li>2 tbsp honey </li>
+              <li>1 tbsp Kasoori methi/ fenugreek leaf powder </li>
+              <li>Salt to taste </li>
+              <li>Chopped coriander for garnish </li>
+      </ul>
+    </div>
+  </article>
+  </section>
+
+
+
+
+  <h3>What I learned</h3>
+      <ul class="square">
+          <li>How to use semantic HTML</li>
+          <li>Lists and Tables , placment on the page</li>
+          <li>how to make an image slideshow</li>
+        </ul>
+
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+
+  <script>
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function() { 
+          $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+        },  3000);
+        </script>     
+
+  <footer>
+      <a href="https://github.com/Shalendra23" target=_blank>
+        <img src="images/github.png" class="social" alt="My Github Bio" height="10" width="10">
+      </a>
+</footer>
+
+  </body>
+</html>

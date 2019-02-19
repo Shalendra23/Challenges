@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css?family=Felipa');
+
+.resImage img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+   }
+
+   .resImage{
+    margin: auto;
+    width: 50%;
+   }
+ 
+body{
+ margin: 10% 1% 10% 1%;
+ background-size: 100% 100%;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+h2{
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #F0F;
+}
+
+h3{
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #830606;
+}
+
+h4{
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h5{
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h6{
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p{
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Felipa', sans-serif;
+    min-width: 300px;
+ }
+
+ p#head2{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -150px;
+    margin-right: -150px;
+  }
+
+ p#head3{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -150px;
+    margin-right: -150px;
+ }
+
+ p#head4{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -150px;
+    margin-right: -150px;
+ }
+
+ p#head5{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -150px;
+    margin-right: -150px;
+ }
+
+ p#head6{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -150px;
+    margin-right: -150px;
+ }

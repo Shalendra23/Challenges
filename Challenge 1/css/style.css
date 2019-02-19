@@ -1,0 +1,94 @@
+
+
+ /*body {
+    background-image: url("../images/back3.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier 
+  }*/
+
+h1{
+    text-align: center;
+    display: block;
+}
+
+h2{
+    display: inline;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h3{
+    display: inline;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h4{
+    display: inline;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h5{
+    display: inline;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h6{
+    display: inline;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+p{
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 250px;
+    margin-right: 250px;
+ }
+
+ p#head2{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -250px;
+    margin-right: -250px;
+  }
+
+ p#head3{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -250px;
+    margin-right: -250px;
+ }
+
+ p#head4{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -250px;
+    margin-right: -250px;
+ }
+
+ p#head5{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -250px;
+    margin-right: -250px;
+ }
+
+ p#head6{
+    text-align: left;
+    line-height: 1.5;
+    display: inline;
+    margin-left: -250px;
+    margin-right: -250px;
+ }
