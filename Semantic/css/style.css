@@ -2,6 +2,8 @@
 
 
 html {
+  height: 100%;
+  width: 100%;
   overflow: scroll;
   overflow-x: hidden;
   }
@@ -10,16 +12,31 @@ html {
   }
 
 body{
-    background: #FFEEEE;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFEEEE; 
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); 
+    margin: 25px 25px;
 }
 
 .wrapper{
     width: 70%;
     margin: 0 auto;
     font-family: Calibri;
+    font-size: 1rem;
 }
+
+#nutri::before {
+  content: url(../final_images/nutr25x25-72dpi.png);
+}
+
+#ing::before {
+  content: url(../final_images/ingredients-25x25-72dpi.png);
+}
+
+#dir::before {
+  content: url(../final_images/cookingpot25x25-72dpi.png);
+}
+
 
 div{
 text-align: left;
@@ -31,29 +48,29 @@ text-align: left;
     opacity: 0.4;
     padding: 20px; 
     width: 98%;
-    height: 50px; 
+    height: 20px; 
 }
 
 #topsection{
-  display: inline-block;
+    float: left;
     margin: 10px auto;
   /*  background-color: red;*/
     width: 100%;
 }
 
-/*
 #picture{
   margin-top: 40px;
     width: 49%;
     float: left;
-} */
+  /*  background-color: yellow;*/
+}
 
 #heading{
     font-family: 'Righteous', cursive;
     text-align: center;
     width: 49%;
     height: 33%;
- display: inline-block;
+    float: right ;
     color: #4CAF50;
   font-size: 20px;
   /*  background-color: cyan;*/
@@ -62,7 +79,7 @@ text-align: left;
 #pitch{
     width: 49%;
     height: 33%;
-    display: inline-block;
+    float: right ;
    /* background-color: darkgreen; */
     line-height: 15px;
     font-family: Calibri;
@@ -72,7 +89,7 @@ text-align: left;
     text-align: center;
     width: 49%;
     height: 33%;
-    display: inline-block;
+    float: right ;
     max-width: 100%;
     max-height: 100%;
    /* background-color: pink;*/
@@ -126,25 +143,32 @@ ul{
    /* background-color: aqua;*/
 }
 
+
+img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+nav img{
+  height: 500px;
+  width: 50px;
+}
+
 footer img{
     clear: both;
+    display: block;
     margin: 0 auto;
-    width: 5%;
-    height: 5%;
+    width: 4%;
+    height: 4%;
 
 }
 
-img {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 20px;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  hr.new2 {
+hr.new2 {
     border-top: 1px dashed gray;
   }
 
@@ -171,22 +195,27 @@ h2{
     text-align: center;
 }
 
-/*.. slider test ..
-*/
-
 .slider{
-    display: inline-block;
-   background: url(images/bc2.jpg);
-    animation: slide 20s infinite;
+  margin-top: 2%;
+  height: 427px;
+  width: 48%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 4px 5px #888888;
+  float: left;
+  background: url(../final_images/Butter_chicken_recipe\ 640x427-72dpi.jpg);
+  animation: slide 20s infinite;
 }
 
 
 @keyframes slide {
 
-  25% {
-    background: url(images/bc3.jpg);
-  }
+33% {
+  background: url(../final_images/Healthy-Instant-Pot-Butter-Chicken-640x427-72dpi.jpg);
+}
 
-  50% {
-    background: url(images/bc2.jpg);
-  }
+66% {
+  background: url(../final_images/Healthy-Instant-Pot-Chicken-Tikka-Masala-640x427-72dpi.jpg);
+}
+ 
+  
+}
